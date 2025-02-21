@@ -1,0 +1,51 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Logs and debug files
+logs/
+*.log
+debug.log
+
+# Python environment variables
+*.env
+*.env.local
+.env.test
+.env.production
+
+# Flask specific
+instance/
+*.sqlite3
+*.db
+migrations/
+
+# Selenium specific
+chromedriver
+geckodriver
+*.crdownload
+
+# Testing
+.coverage
+.tox/
+.nox/
+pytest_cache/
+junit.xml
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Misc
+Thumbs.db
